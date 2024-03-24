@@ -22,6 +22,19 @@ public class Todo {
 	
 	}
 
+	
+	
+	public Todo(Long id, String nome, String descricao, boolean realizado, int prioridade) {
+		super();
+		this.id = id;
+		this.nome = nome;
+		this.descricao = descricao;
+		this.realizado = realizado;
+		this.prioridade = prioridade;
+	}
+
+
+
 	public Long getId() {
 		return id;
 	}
