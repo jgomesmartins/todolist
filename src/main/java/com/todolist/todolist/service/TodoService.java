@@ -25,9 +25,7 @@ public class TodoService {
 	}
 
 	public List<Todo> list() {
-		//Sort sort = org.springframework.data.domain.Sort.by("prioridade").descending();
 	 return repository.findAll();
-		
 
 	}
 
